@@ -12,10 +12,16 @@
             </span>
             {% endif %}
             {% if feature.ionicon %}
-            <ion-icon size="small" name="{{ feature.ionicon }}"></ion-icon>
+            <span class="fa-stack fa-1x">
+                <ion-icon class="iconBack fa-stack-2x" name="ellipse"></ion-icon>
+                <ion-icon class="iconTop fa-stack-1x" name="{{ feature.ionicon }}"></ion-icon>
+            </span>
             {% endif %}
             {% if feature.icon %}
-            <ion-icon size="small" src="{{ site.github.baseurl }}{{ feature.icon }}"></ion-icon>
+            <span class="fa-stack fa-1x">
+                <ion-icon class="iconBack fa-stack-2x" name="ellipse"></ion-icon>
+                <ion-icon class="iconTop fa-stack-1x" src="{{ site.github.baseurl }}/{{ feature.icon }}"></ion-icon>
+            </span>
             {% endif %}
         </div>
         <div class="featureText">
