@@ -41,7 +41,7 @@ features                                  :
 
   - title                                 : Docker Images
     description                           : Run on a Raspberry Pi or another server on your home network with a single command via Docker. 
-    fontawesome_icon_name                 : docker
+    ionicon                               : logo-docker
     
   - title                                 : Dynamic Ambient Light
     description                           : Dynamically adjusts the brightness and color temperature of your lights and groups.
